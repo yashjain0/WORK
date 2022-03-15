@@ -53,7 +53,7 @@ export default function Sidebar() {
                 Jobs
               </li>
             </Link>
-            <Link to="/newProduct" className="link">
+            <Link to="/scheduler" className="link">
               <li className="sidebarListItem">
                 <Storefront className="sidebarIcon" />
                 Scheduler

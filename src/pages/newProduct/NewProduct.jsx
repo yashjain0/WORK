@@ -17,10 +17,7 @@ export default function NewProduct() {
           <label>Description</label>
           <input type="text" placeholder="Info about job." />
         </div>
-        <div className="addProductItem">
-          <label>Schedule It!</label>
-          <input type="time" placeholder="Schedule it" />
-        </div>
+
         {/* <div className="addProductItem">
           <label>Stock</label>
           <input type="text" placeholder="123" />
@@ -28,8 +25,8 @@ export default function NewProduct() {
         <div className="addProductItem">
           <label>Active</label>
           <select name="active" id="active">
-            <option value="yes">Yes</option>
-            <option value="no">No</option>
+            <option value="yes">On</option>
+            <option value="no">Off</option>
           </select>
         </div>
         <button className="addProductButton">Create</button>
